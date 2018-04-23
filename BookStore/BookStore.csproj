@@ -23,4 +23,7 @@
   <ItemGroup>
     <Content Remove="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\ValuesController.cs" />
+  </ItemGroup>
 </Project>
