@@ -23,7 +23,8 @@ namespace BookStore.Controllers
                     Description = "Uma Breve História do Tempo: do Big Bang aos Buracos Negros, é um livro de divulgação científica escrito pelo Professor Stephen Hawking, publicado pela primeira vez em 1988.",
                     ISBN = "122367363",
                     Pages = 123,
-                    Publisher = "Lexel's corp"
+                    Publisher = "Intrínseca",
+                    Cover = "https://images-na.ssl-images-amazon.com/images/I/51rSMKyy8rL._SX347_BO1,204,203,200_.jpg"
                 });
                 _context.SaveChanges();
             }
